@@ -1,0 +1,54 @@
+
+
+    generate p p > e- ve~
+    output beamenergy
+    launch beamenergy
+       set nevents 1000
+       set ebeam1 500 # changing Beamenergy1
+       set ebeam2 500 # changing Beamenergy2
+   launch    
+       set ebeam1 1000 # changing Beamenergy1
+       set ebeam2 1000 # changing Beamenergy2
+   launch    
+       set ebeam1 1500 # changing Beamenergy1
+       set ebeam2 1500 # changing Beamenergy2
+   launch    
+       set ebeam1 2000 # changing Beamenergy1
+       set ebeam2 2000 # changing Beamenergy2
+   launch    
+       set ebeam1 2500 # changing Beamenergy1
+       set ebeam2 2500 # changing Beamenergy2       
+   launch    
+       set ebeam1 3000 # changing Beamenergy1
+       set ebeam2 3000 # changing Beamenergy2
+   launch    
+       set ebeam1 3500 # changing Beamenergy1
+       set ebeam2 3500 # changing Beamenergy2       
+   launch    
+       set ebeam1 4000 # changing Beamenergy1
+       set ebeam2 4000 # changing Beamenergy2       
+   launch    
+       set ebeam1 4500 # changing Beamenergy1
+       set ebeam2 4500 # changing Beamenergy2       
+   launch    
+       set ebeam1 5000 # changing Beamenergy1
+       set ebeam2 5000 # changing Beamenergy2
+   launch    
+       set ebeam1 5500 # changing Beamenergy1
+       set ebeam2 5500 # changing Beamenergy2
+    launch    
+       set ebeam1 6000 # changing Beamenergy1
+       set ebeam2 6000 # changing Beamenergy2      
+    launch    
+       set ebeam1 6500 # changing Beamenergy1
+       set ebeam2 6500 # changing Beamenergy2      
+   launch    
+       set ebeam1 7000 # changing Beamenergy1
+       set ebeam2 7000 # changing Beamenergy2   
+   launch    
+       set ebeam1 880 # changing Beamenergy1
+       set ebeam2 880 # changing Beamenergy2  
+       set lpp2 -1
+       
+   launch beamenergy -i
+       print_results --path=./A1/cross_section_beamenergy.txt --format=short

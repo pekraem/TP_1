@@ -1,0 +1,20 @@
+
+
+    generate p p > e- ve~
+    add process p p > e+ ve
+    output pp
+    launch pp
+       set nevents 1000
+       set ebeam1 6500 # changing Beamenergy1
+       set ebeam2 6500 # changing Beamenergy2
+
+    generate p p > e- ve~ [QCD]
+    add process p p > e+ ve [QCD]
+    output pp
+    launch pp
+       set nevents 1000
+       set ebeam1 6500 # changing Beamenergy1
+       set ebeam2 6500 # changing Beamenergy2
+       
+   launch pp -i
+       print_results --path=./A1/pp.txt --format=short
